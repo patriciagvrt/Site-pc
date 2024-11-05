@@ -301,3 +301,7 @@ span{
     inline-size: 100%;
 
 }
+.botao-imagens .imagem a:hover{
+    display: block;
+
+}
