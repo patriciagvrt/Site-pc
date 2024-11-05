@@ -22,16 +22,15 @@ and (max-width : 650px) {
         block-size: 10%;
     }
     .footer .footer-dentro{
-        width: 90%;
+        inline-size: 90%;
     }
     .footer-dentro .footer-info{
-        width: 100%;
-        margin-bottom: 30px;
+        inline-size: 100%;
+        margin-block-end: 30px;
     }
     header{
         display: flex;
         flex-flow: row wrap;
-        block-size: ;
     }
     .menu-items li{
         display: flex; 
@@ -89,9 +88,6 @@ p {
 }
 header {
     background-color: lightyellow;
-
-
-
 }
 body {
     background-color: rgb(249, 249, 239);
@@ -157,7 +153,7 @@ a:hover {
 
 
 .redes{
-    padding-left: 50px;
+    padding-inline-start: 50px;
 }
 .redes a{
     background-color: transparent;
