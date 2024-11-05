@@ -2,7 +2,9 @@
 @media only screen 
 and (min-width : 0px)
 and (max-width : 650px) {
-
+    body{
+        overflow-x: hidden;
+    }
     h1{
         font-size: 20px;
     }
@@ -53,6 +55,9 @@ and (max-width : 650px) {
         margin: 0px;
         padding: 0px;
 
+    }
+    .footer-info{
+        font-size: 15px;
     }
 
 }
@@ -244,7 +249,8 @@ a:hover {
     margin-block-end: 20px;
 }
 .footer-info a{
-
+    transform: none;
+    transition: none;
     font-size: 5px;
     display: block;
     inline-size: 100%;
