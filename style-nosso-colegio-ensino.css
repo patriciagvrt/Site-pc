@@ -87,8 +87,3 @@ h1 {
     display: flex;
 
 }
-@media screen (max-width : 650px){
-    .course-list{
-        display: block;
-    }
-}
