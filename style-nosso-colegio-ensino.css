@@ -34,7 +34,7 @@ header{
     width: 100%; /* Ajusta a largura da imagem */
     height: auto; /* Mantém a proporção */
     border-radius: 8px; /* Bordas arredondadas */
-    margin-bottom: 10px; /* Espaço entre as imagens */
+    margin-block-end: 10px; /* Espaço entre as imagens */
 }
 
 
