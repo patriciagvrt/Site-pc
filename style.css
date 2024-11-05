@@ -4,7 +4,18 @@ header{
     background-color: lightyellow;
 }
 
-
+.text-container > p {
+    margin: 100%;
+    padding: 10px 40px 10px 40px;
+    line-height: 2em;
+    margin: 50px;  
+}
+.text-container > h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-block-end: 10px; 
+    padding: 10px 40px 10px 40px;
+}
 .container {
     margin: 20px 100px;
     background-color: rgb(246, 247, 211);

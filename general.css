@@ -7,7 +7,7 @@ and (max-width : 650px) {
         font-size: 20px;
     }
    .overlaymais p {
-    display: none; /* O texto desaparece completamente */
+        display: none; /* O texto desaparece completamente */
     }
     .tour-button{
         font-size: 10px;
@@ -19,25 +19,38 @@ and (max-width : 650px) {
         display: none; /* O texto desaparece completamente */
         }
     .logo{
-        block-size: auto;
-        inline-size: auto;
-    
-
-    }
-    .menu-items{
-        display: none;
-    }
-    .burger-icon{
-        display: block;
+        block-size: 10%;
     }
     .footer .footer-dentro{
-        inline-size: 90%;
+        width: 90%;
     }
-    .footer .footer-dentro,
-    .footer-info{
-        inline-size: 100%;
-        margin-block-end: 30px;
+    .footer-dentro .footer-info{
+        width: 100%;
+        margin-bottom: 30px;
     }
+    header{
+        display: flex;
+        flex-flow: row wrap;
+        block-size: ;
+    }
+    .menu-items li{
+        display: flex; 
+        flex-flow: row wrap;
+    }
+    li a{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    nav{
+       display: flex; 
+       flex-flow: row wrap;
+    }
+    .redes{
+        display: flex; 
+        flex-flow: row wrap;
+    }
+
 }
     @media only screen 
     and (min-width : 651px)
@@ -62,7 +75,7 @@ and (max-width : 650px) {
     --fonte-padrao: Nunito, Arial, Helvetica, sans-serif; 
 }
 * {
-    box-sizing: border-box;
+
     margin: 0px;
     padding: 0px; /* Remove preenchimentos padrão */
     font-family: var(--fonte-padrao);
@@ -76,46 +89,53 @@ p {
 }
 header {
     background-color: lightyellow;
+
+
+
 }
 body {
     background-color: rgb(249, 249, 239);
 }
 ul{
     list-style: none;
-    display: flex;
     block-size: 80px;
     background-color: rgb(255, 255, 255);
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px 50px;
+    padding: 0px 50px 0px 100px;
+    display: table-cell;
+
+    align-content: center;
+
 }
 li{
     justify-content: space-around;
     padding: 2px;
+    display: table-cell;
+    float: center;
 }
 
 
 nav {
-    block-size: 80px;
+
     background-color: rgb(255, 255, 255);
-    display: flex;
+
     justify-content: space-evenly;
-    align-items: center;
-    padding: 10px 50px;
     
+    padding: 10px 50px;   
 
 }
 .menu-items a {
-    background-color: #ffe250; /* Amarelo vibrante */
-    color: #ffffff; /* Texto preto */
+    background-color: #ffe250; 
+    color: #ffffff; 
     border-radius: 38px;
     padding: 9px 20px;
     transition: background-color 0.3s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-weight: bold;
     text-decoration: none;
-    display:inline-block;
+    display: table;
+
 }
 ul li:hover {
     transform: scale(1.1);
@@ -125,103 +145,57 @@ a:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
-.burger-icon{
-    margin: auto 0;
-    cursor: pointer;
-    display: none; /* Alinha os ícones lado a lado */ 
-
-}
-.burger-icon div{
-    inline-size: 35px;
-    block-size: 3px;
-    background-color: rgb(0, 0, 0);
-    background: black;
-    margin: 6px 0;
-    transition: 0.4s;
 
 
-}
-.open .bar1{
-    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-    transform: rotate(-45deg) translate(-6px, 6px);
-}
-.open .bar2{
-    opacity: 0;
-}
-.open .bar3{
-    -webkit-transform: rotate(45deg) translate(-6px, 6px);
-    transform: rotate(45deg) translate(-6px, 6px);
-}
-.open .mobile-menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-.mobile-menu{
-    display: none;
-    position: absolute;
-    inset-block-start: 50px;
-    inset-inline-start: 0;
-    block-size: calc(100vh - 50px);
-    inline-size: 100%;
-}
 .logo {
     block-size: 70px;
-    inline-size: auto;
-    display:inline-block;
+    display: table;
+    float: inline-start;
 
-    margin-inline-start:  0;
-}
 
-header{
-    background-color: lightyellow;
 }
 
 
+.redes{
+    padding-left: 50px;
+}
+.redes a{
+    background-color: transparent;
+    background: transparent; /* Remove qualquer fundo */
+    border: none; /* Remove bordas */
+
+    border-radius: 50px;
+    box-shadow: none;
 
 
 
-
-
-.redes {
-    display: inline-block; /* Permite a personalização do link */
-    margin-inline-start: 10px; /* Adiciona um pequeno espaço à esquerda dos ícones */
 }
 
 .rede {
-    display: inline-block; /* Alinha os ícones lado a lado */
+    display: block; /* Alinha os ícones lado a lado */
     margin: 0; /* Remove a margem */
+    background-color: transparent;
 }
 
 .icon {
-    inline-size: 40px; /* Ajusta o tamanho do ícone */
+    inline-size: 45px; /* Ajusta o tamanho do ícone */
     block-size: auto; /* Mantém a proporção da imagem */
-    margin: 0 5px; /* Adiciona um pequeno espaço entre os ícones */
-    background: none; /* Remove qualquer fundo */
+
+
     border: none; /* Remove bordas */
+    display: table-cell;
+
+
 }
 
 
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    color: rgb(54, 54, 54);
-    padding: 10px;
-}
 
-.text-container > p {
-    margin: 100%;
-    padding: 10px 40px 10px 40px;
-    line-height: 2em;
-    margin: 50px;  
-}
-.text-container > h1 {
-    text-align: center;
-    font-size: 3em;
-    margin-block-end: 10px; 
-    padding: 10px 40px 10px 40px;
-}
+
+
+
+
+/* FOOTER DO SITE */
+
 .footer{
 
     margin-block-start: 20px;
