@@ -49,6 +49,11 @@ and (max-width : 650px) {
         display: flex; 
         flex-flow: row wrap;
     }
+    main{
+        margin: 0px;
+        padding: 0px;
+
+    }
 
 }
     @media only screen 
