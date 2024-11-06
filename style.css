@@ -1,0 +1,28 @@
+.botao{
+    background-color: #ffe250;
+    border-radius: 20px;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.botoes{
+    display: inline-block;
+}
+.imagem-click img{
+
+    block-size: 300px;
+}
+.imagem-click{
+
+    padding-left: 20px;
+    block-size: 300px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+button{
+    border-color: #ffe250;
+}
