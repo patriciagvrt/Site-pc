@@ -16,8 +16,12 @@
 }
 .imagem-click{
 
-    padding-left: 20px;
+    padding: 30px;
     block-size: 300px;
+    display: block;
+    
+    
+
 }
 button:hover{
     transform: scale(1.1);
@@ -25,4 +29,10 @@ button:hover{
 }
 button{
     border-color: #ffe250;
+}
+main{
+    margin: auto;
+    justify-content: center;
+    padding: 50px;
+    align-content: center;
 }
