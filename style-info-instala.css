@@ -17,7 +17,7 @@
     background-color: rgba(255, 255, 255, 0.181);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-left: 10%;
+    margin-inline-start: 10%;
 }
 
 .imagem-click{
@@ -37,7 +37,7 @@
     background-color: rgba(115, 115, 115, 0.121);
 
 
-    margin-left: 10%;
+    margin-inline-start: 10%;
     padding: 30px;
     border-radius: 70px;
 
@@ -111,4 +111,30 @@ button{
     display: inline-block; /* Faz o botão ocupar apenas o espaço necessário */
 
 
+}
+.informacoes{
+    display: block;
+    align-self: center;
+    font-size: 1.5em;
+}
+.informacoes > h2{
+    color: grey;
+    
+    align-content: center;
+}
+.informacoes div{
+    display: flex;
+    margin: auto;
+}
+.informacoes > h2{
+    display: inline-block;
+    margin: auto;
+
+}
+.informacoes div > p{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    align-items: center;
 }

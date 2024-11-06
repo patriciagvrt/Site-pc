@@ -31,8 +31,8 @@ header{
     flex: 1; /* Faz com que as imagens ocupem um espaço proporcional */
 }
 .history-image {
-    width: 100%; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção */
+    inline-size: 100%; /* Ajusta a largura da imagem */
+    block-size: auto; /* Mantém a proporção */
     border-radius: 8px; /* Bordas arredondadas */
     margin-block-end: 10px; /* Espaço entre as imagens */
 }
