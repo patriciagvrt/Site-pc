@@ -116,25 +116,36 @@ button{
     display: block;
     align-self: center;
     font-size: 1.5em;
+    text-align: center; /* Centraliza o texto na seção */
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.652);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .informacoes > h2{
     color: grey;
-    
+    display: inline-block;
+    margin: auto;
     align-content: center;
+    font-size: 2em;
+    font-weight: lighter;
+}
+.informacoes > h1{
+    font-size: 2em;
+    font-weight: lighter;
 }
 .informacoes div{
     display: flex;
+    justify-content: center; /* Centraliza os parágrafos dentro da div */
     margin: auto;
 }
-.informacoes > h2{
-    display: inline-block;
-    margin: auto;
 
-}
 .informacoes div > p{
-
-    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(244, 242, 185);
     border-radius: 10px;
     padding: 20px;
-    align-items: center;
+    margin: 0 10px; /* Adiciona um espaçamento entre os parágrafos */
 }
