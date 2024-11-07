@@ -84,7 +84,7 @@ header{
     border-radius: 20px;
     color: white;
     transform: none;
-    transition: background-color 0.3s; /* Adiciona uma transição suave ao fundo */
+    transition: none;
     font-weight: bold;
     inline-size: 90%; /* Define uma largura máxima para os itens */
     margin: 5px 0; /* Adiciona margem entre os itens */
@@ -93,6 +93,11 @@ header{
 .course-list{
     display: flex;
 
+
+}
+.course-list ul{
+    transform: none;
+    transition: none;
 }
 .ensino-image{
     inline-size: 100%; /* Largura 100% do contêiner */
@@ -133,6 +138,12 @@ header{
     float: inline-start;
     
 }
+.logo-wizard{
+    block-size: 100px;
+    display: table;
+    float: inline-start;
+    
+}
 .info-ensino > h1 {
     padding: 15px 0px 15px 0px;
     font-weight: bolder;
@@ -156,6 +167,12 @@ header{
     border-radius: 10px;        /* Bordas arredondadas */
     
 }
+.text-box > h2{
+    font-weight: lighter;
+    margin: 10px;
+    text-align: center;
+
+}
 @media (max-width: 768px) {
     main p{
         font-size: smaller;
@@ -178,9 +195,10 @@ header{
         font-size: 2em; /* Ajuste para telas menores */
 
     }
-    .logo-ftd{
+    .logo-ftd    .logo-wizard{
         block-size: 50px;
     }
+
     .course-list {
 
 
