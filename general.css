@@ -79,6 +79,15 @@ and (max-width : 650px) {
     .footer-info{
         font-size: 15px;
     }
+    .informacoes div {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
+    .informacoes div p{
+
+        margin: 10px;
+    }
 
 }
     @media only screen 
