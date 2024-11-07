@@ -1,43 +1,37 @@
 .botao{
     background-color: #ffe250;
     border-radius: 20px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: rgb(255, 255, 255);
     padding: 10px;
-    margin: 5px;
+    margin: 5px; /* Espaço entre os botões */
     font-weight: bold;
-    display: flex;
-
+    cursor: pointer;
     
     
 }
 .botoes{
-    display: inline-block;
+
+    display: flex; /* Muda para flexbox para alinhar os botões */
+    flex-wrap: wrap; /* Permite que os botões se movam para a próxima linha se o espaço for insuficiente */
+    justify-content: center; /* Centraliza os botões horizontalmente */
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.181);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-inline-start: 10%;
 }
 
 .imagem-click{
-    margin: 10px;
-    display: inline-block;
-    justify-content: center;
     border-radius: 30px;
-    block-size: 400px;
-
-    justify-content: center;
-
-    
+    max-width: 80%; /* Define a largura máxima da imagem como 80% da largura da div pai */
+    height: auto; /* Mantém a proporção da imagem */
 
 }
 .caixa-imagem{
-    display: inline-block;
+    display: flex; /* Usar flexbox para centralizar a imagem também */
+    justify-content: center; /* Centraliza a imagem na div */
     background-color: rgba(115, 115, 115, 0.121);
-
-
-    margin-inline-start: 10%;
+    margin: 20px 0; /* Aumenta a margem acima e abaixo da caixa de imagem */
     padding: 30px;
     border-radius: 70px;
 
@@ -48,6 +42,7 @@ button:hover{
 }
 button{
     border-color: #ffe250;
+
 }
 .main-instalacoes{
     margin: auto;
@@ -114,7 +109,7 @@ button{
 }
 .informacoes{
     display: block;
-    align-self: center;
+
     font-size: 1.5em;
     text-align: center; /* Centraliza o texto na seção */
     font-weight: lighter;
