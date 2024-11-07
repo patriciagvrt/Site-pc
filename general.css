@@ -27,10 +27,7 @@ and (max-width : 650px) {
         block-size: 10%;
     }
 
-    .footer-dentro .footer-info{
-        
-        margin-block-end: 30px;
-    }
+
     .footer-info > p{
         font-size: 10px;
     }
