@@ -33,6 +33,9 @@ and (max-width : 650px) {
         inline-size: 90%;
         margin-block-end: 30px;
     }
+    .footer-info > p{
+        font-size: 10px;
+    }
     header{
         display: flex;
         flex-flow: row wrap;
