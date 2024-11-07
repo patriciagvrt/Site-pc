@@ -159,6 +159,12 @@ header{
 @media (max-width: 768px) {
     main p{
         font-size: smaller;
+        
+    }
+    .container{
+        margin: 0;
+        display: block;
+        padding: 0;
     }
     .text-container > h1 {
         font-size: 2em; /* Ajuste para telas menores */
@@ -172,19 +178,22 @@ header{
         font-size: 2em; /* Ajuste para telas menores */
 
     }
-
+    .logo-ftd{
+        block-size: 50px;
+    }
     .course-list {
-        flex-direction: column; /* Empilha itens em telas menores */
-        width: 100%; /* Certifique-se de que ocupe 100% */
-        display: flex;
-        flex-flow: row wrap;
-        font-size: 15px; /* Ajuste para telas menores */
+
+
+        display: contents;
+        block-size: 200px;
+
         
     }
 
     .course-list li {
-        width: 95%; /* Limite a largura */
-        font-size: 15px; /* Ajuste para telas menores */
+
+        block-size: 10px;
+        font-size: 10px; /* Ajuste para telas menores */
     }
     .text-box{
         display: flex;
