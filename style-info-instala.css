@@ -22,9 +22,10 @@
 }
 
 .imagem-click{
+
     border-radius: 30px;
-    max-width: 80%; /* Define a largura máxima da imagem como 80% da largura da div pai */
-    height: auto; /* Mantém a proporção da imagem */
+    max-inline-size: 80%; /* Define a largura máxima da imagem como 80% da largura da div pai */
+    block-size: auto; /* Mantém a proporção da imagem */
 
 }
 .caixa-imagem{

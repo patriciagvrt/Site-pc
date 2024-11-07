@@ -86,7 +86,7 @@ header{
     transform: none;
     transition: background-color 0.3s; /* Adiciona uma transição suave ao fundo */
     font-weight: bold;
-    width: 90%; /* Define uma largura máxima para os itens */
+    inline-size: 90%; /* Define uma largura máxima para os itens */
     margin: 5px 0; /* Adiciona margem entre os itens */
 
 }
@@ -95,16 +95,16 @@ header{
 
 }
 .ensino-image{
-    width: 100%; /* Largura 100% do contêiner */
-    height: auto; /* Mantém a proporção */
+    inline-size: 100%; /* Largura 100% do contêiner */
+    block-size: auto; /* Mantém a proporção */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
     display: block; /* Garante que não haja espaços abaixo da imagem */
     border-radius: 15px;
 }
 .overlay{
     position: absolute; /* Permite que o título seja posicionado sobre a imagem */
-    top: 40%; /* Ajuste a posição vertical conforme necessário */
-    left: 40%; /* Centraliza horizontalmente */
+    inset-block-start: 40%; /* Ajuste a posição vertical conforme necessário */
+    inset-inline-start: 40%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Centraliza perfeitamente o título */
     color: rgba(34, 34, 34, 0.917); /* Cor do texto */
     font-weight: lighter;
@@ -123,7 +123,7 @@ header{
 .ensino {
     position: relative; /* Necessário para o posicionamento absoluto do título */
     overflow: hidden; /* Garante que o conteúdo não transborde o contêiner */
-    max-width: 100%; /* Garante que o contêiner não ultrapasse a largura da tela */
+    max-inline-size: 100%; /* Garante que o contêiner não ultrapasse a largura da tela */
     padding: 20px; /* Adiciona padding para evitar que o conteúdo fique muito próximo das bordas */
     block-size: auto;
 }
