@@ -23,11 +23,14 @@ and (max-width : 650px) {
     .logo{
         block-size: 10%;
     }
+    footer{
+        block-size: 10%;
+    }
     .footer .footer-dentro{
         inline-size: 90%;
     }
     .footer-dentro .footer-info{
-        inline-size: 100%;
+        inline-size: 90%;
         margin-block-end: 30px;
     }
     header{
