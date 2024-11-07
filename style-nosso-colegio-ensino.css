@@ -19,7 +19,7 @@ header{
 
 
 .text-box {
-    flex: 1; /* Faz com que o texto ocupe um espaço proporcional */
+    flex: 1; 
     margin-inline-end: 20px; /* Espaço entre o texto e as imagens */
     background-color: #ffffff; /* Caixa com um leve tom amarelo */
     padding: 20px; /* Aumentar o espaçamento interno */
@@ -28,7 +28,7 @@ header{
 }
 
 .image-box {
-    flex: 1; /* Faz com que as imagens ocupem um espaço proporcional */
+    flex: 1; 
 }
 .history-image {
     inline-size: 100%; /* Ajusta a largura da imagem */
@@ -126,7 +126,7 @@ header{
     font-size: 3em;
 }
 .ensino {
-    position: relative; /* Necessário para o posicionamento absoluto do título */
+    position: relative; 
     overflow: hidden; /* Garante que o conteúdo não transborde o contêiner */
     max-inline-size: 100%; /* Garante que o contêiner não ultrapasse a largura da tela */
     padding: 20px; /* Adiciona padding para evitar que o conteúdo fique muito próximo das bordas */
@@ -184,15 +184,15 @@ header{
         padding: 0;
     }
     .text-container > h1 {
-        font-size: 2em; /* Ajuste para telas menores */
+        font-size: 2em; 
     }
     
     .overlay > h1 {
-        font-size: 15px; /* Ajuste para telas menores */
+        font-size: 15px; 
     }
 
     .info-ensino > h1 {
-        font-size: 2em; /* Ajuste para telas menores */
+        font-size: 2em; 
 
     }
     .logo-ftd    .logo-wizard{
@@ -211,7 +211,7 @@ header{
     .course-list li {
 
         block-size: 10px;
-        font-size: 10px; /* Ajuste para telas menores */
+        font-size: 10px; 
     }
     .text-box{
         display: flex;

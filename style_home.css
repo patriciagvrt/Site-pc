@@ -14,7 +14,7 @@
     position: relative;
     inline-size: 100%;
     margin: 0; /* Remove margens indesejadas */
-    padding: 0; /* Remove preenchimentos indesejados */
+    padding: 0; 
 
 }
 .full-width-image {
@@ -68,8 +68,8 @@
 .full-width-image-maissobre {
     inline-size: 100%; /* Largura 100% do contêiner */
     block-size: auto; /* Mantém a proporção */
-    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
-    display: block; /* Garante que não haja espaços abaixo da imagem */
+    object-fit: cover; 
+    display: block; 
 }
 .overlaymais {
     position: absolute;

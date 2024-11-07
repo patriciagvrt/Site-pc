@@ -1,7 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');  
 @media only screen 
 and (min-width : 0px)
-and (max-width : 650px) {
+and (max-width : 430px){
+    body{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 20px;
+    }
+   .overlaymais p {
+        display: none; /* O texto desaparece completamente */
+    }
+    .tour-button{
+        font-size: 10px;
+    }
+    .overlay p {
+        display: none; /* O texto desaparece completamente */
+        }
+    .instalacoes p {
+        display: none; /* O texto desaparece completamente */
+        }
+    .logo{
+        block-size: 10%;
+    }
+    footer{
+        block-size: 10%;
+        display: block;
+    }
+    .footer .footer-dentro{
+        inline-size: 90%;
+        block-size: 10%;
+    }
+    .footer-dentro .footer-info{
+        inline-size: 315px;
+        height: auto;
+        block-size: 240px;
+    }
+    .footer-info > p{
+        font-size: 15px;
+        block-size: 315px;
+        display: block;
+    }
+    .logofooter{
+        block-size: 10%;
+        display: block;
+        block-size: 350px;
+    }
+    .footer-dentro{
+        display: block;
+        block-size: 350px;
+    }
+    header{
+        display: block;
+
+        block-size: auto;
+    }
+    .menu-items li{
+        display: flex; 
+        flex-flow: row wrap;
+        font-size: 15px;
+    }
+    .menu-items ul{
+        margin: 0px;
+        align-content: center;
+        padding: 0px;
+    }
+    li a{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    nav{
+       display: flex; 
+       flex-flow: row wrap;
+    }
+    .redes{
+        display: contents; 
+        flex-flow: row wrap;
+
+    }
+    main{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    .footer-info{
+        font-size: 15px;
+    }
+    .informacoes div {
+        display: flex;
+        flex-flow: row wrap;
+        margin: 10px;
+    }
+    .informacoes div p{
+
+        margin: 10px;
+    }
+    .visita > h1{
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media only screen 
+and (min-width : 430px)
+and (max-width : 760px) {
     body{
         overflow-x: hidden;
     }
@@ -90,88 +195,8 @@ and (max-width : 650px) {
     }
 
 }
-    @media only screen 
-    and (min-width : 651px)
-    and (max-width : 711px) {
-    body{
-        overflow-x: hidden;
-    }
-    p, h1{
-        font-size: 10px;
-    }
-    .menu-items li{
-        display: flex; 
-        flex-flow: row wrap;
-    }
-    li a{
-        display: flex;
-        flex-flow: row wrap;
-    }
 
-    nav{
-       display: flex; 
-       flex-flow: row wrap;
-    }
-    .redes{
-        display: flex; 
-        flex-flow: row wrap;
-    }
-    main{
-        margin: 0px;
-        padding: 0px;
-
-    }
-    .footer-info{
-        font-size: 15px;
-    }
-    .logo{
-        block-size: 10%;
-    }
-    .footer .footer-dentro{
-        inline-size: 90%;
-    }
-    .footer-dentro .footer-info{
-        inline-size: 100%;
-        margin-block-end: 30px;
-    }
-
-}
-        @media only screen 
-        and (min-width : 711px)
-        and (max-width : 1071px) {
-        body{
-            overflow-x: hidden;
-        }
-        p, h1{
-            font-size: 15px;
-        }
-
-        .menu-items li{
-            display: flex; 
-            flex-flow: row wrap;
-        }
-        li a{
-            display: flex;
-            flex-flow: row wrap;
-        }
-    
-        nav{
-           display: flex; 
-           flex-flow: row wrap;
-        }
-        .redes{
-            display: flex; 
-            flex-flow: row wrap;
-        }
-        main{
-            margin: 0px;
-            padding: 0px;
-    
-        }
-        .footer-info{
-            font-size: 15px;
-        }
-    }
+ 
 
 :root {
     --fonte-padrao: Nunito, Arial, Helvetica, sans-serif; 
@@ -327,7 +352,7 @@ a:hover {
 }
 .footer-info{
 
-    inline-size: calc(21.6666666667 - 20px);
+
     margin-inline-end: 10px;
     float: inline-start;
     block-size: 100%;
@@ -370,7 +395,7 @@ a:hover {
     color: rgb(255, 255, 255);
     display: inline-block; /* Faz o botão ocupar apenas o espaço necessário */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
-    display: inline-block;
+    margin: 20px;
     font-size: 2em;
 
 
@@ -379,19 +404,19 @@ a:hover {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 50px;
-    font-size: 1em;
-    text-align: center;
+    align-items: center;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); 
+    text-align: center;
 }
 .visita > h1{
     color: rgb(56, 56, 56);
     font-size: 3em;
-    text-align: start;
-    padding-inline-start: 90px;
+    text-align: center;
+
 }
 .visita > p{
-    text-align: start;
-    padding-inline-start: 90px;
+    text-align: center;
+
 }
 span{
     text-align: center; /* Centraliza o texto do rodapé */

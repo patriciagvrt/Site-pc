@@ -57,7 +57,8 @@ button{
 
 }
 
- /* estilo da pag informações*/
+ /* Estilo da pagina de informacoes */
+
 .full-width-image-home {
     inline-size: 100%; /* A imagem ocupa toda a largura da caixa */
     block-size: auto; /* Mantém a proporção da imagem */
