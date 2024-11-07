@@ -25,11 +25,30 @@ and (max-width : 650px) {
     }
     footer{
         block-size: 10%;
+        display: block;
     }
-
-
+    .footer .footer-dentro{
+        inline-size: 90%;
+        block-size: 10%;
+    }
+    .footer-dentro .footer-info{
+        inline-size: 380px;
+        height: auto;
+        block-size: 240px;
+    }
     .footer-info > p{
         font-size: 10px;
+        block-size: 380px;
+        display: block;
+    }
+    .logofooter{
+        block-size: 10%;
+        display: block;
+        block-size: 380px;
+    }
+    .footer-dentro{
+        display: block;
+        block-size: 380px;
     }
     header{
         display: flex;
@@ -282,7 +301,7 @@ a:hover {
     padding-block-start: 40px;
     display: block;
     margin: 0 auto;
-    inline-size: 1100px;
+
     block-size: 100%;
 }
 .logofooter{
