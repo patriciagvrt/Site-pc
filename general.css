@@ -26,11 +26,9 @@ and (max-width : 650px) {
     footer{
         block-size: 10%;
     }
-    .footer .footer-dentro{
-        inline-size: 90%;
-    }
+
     .footer-dentro .footer-info{
-        inline-size: 90%;
+        
         margin-block-end: 30px;
     }
     .footer-info > p{
